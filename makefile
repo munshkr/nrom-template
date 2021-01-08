@@ -85,7 +85,7 @@ $(objdir)/index.txt: makefile
 	echo Files produced by build tools go here, but caulk goes where? > $@
 
 clean:
-	-rm $(objdir)/*.o $(objdir)/*.s $(objdir)/*.chr
+	-rm -f $(objdir)/*.o $(objdir)/*.s $(objdir)/*.chr
 
 # Rules for PRG ROM
 
