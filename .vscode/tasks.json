@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run NES ROM",
+            "command": "make",
+            "args": [
+                "run"
+            ],
+            "problemMatcher": [
+                "$ca65"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Debug NES ROM",
+            "command": "make",
+            "args": [
+                "debug"
+            ],
+            "problemMatcher": [
+                "$ca65"
+            ],
+            "group": "build"
+        }
+    ]
+}
